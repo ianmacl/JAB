@@ -1,0 +1,23 @@
+{
+    "name": "imaclennan/cms5",
+    "require": {
+        "joomla/application": "~1.1",
+        "joomla/database": "~1.1",
+        "joomla/log": "~1.1",
+        "joomla/router": "~1.1",
+        "joomla/di": "~1.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~3.7",
+        "squizlabs/php_codesniffer": "1.5"
+    },
+    "authors": [
+        {
+            "name": "Ian MacLennan",
+            "email": "ianlenmac@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Prodigo\\": "src/"}
+    }
+}

@@ -1,0 +1,9 @@
+{
+	"database": {
+		"driver": "sqlite",
+		"host": "",
+		"name": "etc/articles.db",
+		"user": "",
+		"password": ""
+	}
+}
